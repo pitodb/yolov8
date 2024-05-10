@@ -1,4 +1,4 @@
-readme_content = """**Real-Time Object Detection with YOLOv8**
+**Real-Time Object Detection with YOLOv8**
 
 This project aims to provide real-time object detection capabilities using the YOLOv8 model. YOLOv8 is renowned for its speed and accuracy in object detection tasks.
 
@@ -46,13 +46,3 @@ This project is released under the [MIT License](https://opensource.org/licenses
 - YOLOv8 model implementation: Ultralytics
 - YOLOv8 model weights: [Official Ultralytics repository](https://github.com/ultralytics/yolov5)
 
-**Feedback and Contributions:**
-
-Feedback and contributions are welcome. Feel free to submit issues or pull requests to enhance this project.
-
-**Disclaimer:**
-
-This project is provided as-is without any warranties. Use it at your own risk."""
-
-with open("README.md", "w") as readme_file:
-    readme_file.write(readme_content)
